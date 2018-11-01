@@ -1,20 +1,18 @@
-# Gif-Locker
-Java Web Application 
-## Getting Started
+# gif.lib
+This application is used in the Spring with Hibernate Treehouse course. The app was originally built in the Spring Basics course, and its functionality is extended in the following ways:
+ 
+- Adds persisted data, using an H2 database
+- Manages data with Hibernate
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+What this app does:
 
-## Built With
+- Serves dynamic web content according to URI, including index and detail pages for categories and GIFs
+- Includes database connectivity, where GIF data is stored
+- Allows a user to perform CRUD (create, read, update, delete) operations on GIF and category data
+- Performs server-side form validation for adding/updating GIFs and categories
+- Uses a database
+- Serves static assets, such as images, fonts, CSS, and JS
 
-* [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) - The web framework used
-* [Gradle](https://docs.gradle.org/current/userguide/userguide.html) - Dependency Management
-* [Java](https://rometools.github.io/rome/) - Backend 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Frontend 
-* [hibernate](https://hibernate.org/orm/documentation/5.3/) - ORM 
-* [h2 database](http://www.h2database.com/html/main.html) - Database 
+What this app does **NOT** do:
 
-
-## Authors
-
-* **Idris Bowman** 
-
+- Implement user authentication
